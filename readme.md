@@ -179,7 +179,7 @@ inside the MySQL database.
 
 ### Contact
 
-![Contact](images/preview/contact.png)
+![Contact](images/preview/contactus.png)
 
 # ⚠ Requirements
 
