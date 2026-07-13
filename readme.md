@@ -167,18 +167,19 @@ The contact form automatically stores:
 
 inside the MySQL database.
 
----
+## 📸 Screenshots
 
-# 📸 Screenshots
-# 📸 Screenshots
+### Home
 
-Resume page:
+![Home](images/preview/home.png)
 
-```
-images/preview/resume.png
-```
+### Resume
 
----
+![Resume](images/preview/resume.png)
+
+### Contact
+
+![Contact](images/preview/contact.png)
 
 # ⚠ Requirements
 
@@ -244,4 +245,4 @@ This project is licensed under the MIT License.
 WebDeveloper Developer
 
 Portfolio:
-https://rafirafi.com
+https://rafirafi.com/frontend/portfolio1
