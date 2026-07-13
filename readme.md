@@ -59,7 +59,7 @@ portfolio/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/RyhanZone/My-Portfolio-website-source-cod
+git clone https://github.com/RyhanZone/My-Portfolio-website-source-code
 ```
 
 or download the ZIP file.
@@ -167,18 +167,19 @@ The contact form automatically stores:
 
 inside the MySQL database.
 
----
+## 📸 Screenshots
 
-# 📸 Screenshots
-# 📸 Screenshots
+### Home
 
-Resume page:
+![Home](images/preview/home.png)
 
-```
-images/preview/resume.png
-```
+### Resume
 
----
+![Resume](images/preview/resume.png)
+
+### Contact
+
+![Contact](images/preview/contactus.png)
 
 # ⚠ Requirements
 
@@ -244,4 +245,4 @@ This project is licensed under the MIT License.
 WebDeveloper Developer
 
 Portfolio:
-https://rafirafi.com
+https://rafirafi.com/frontend/portfolio1
