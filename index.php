@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
       Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript
-      | Codehal
     </title>
     <!-- Bootstrap icon -->
     <link
