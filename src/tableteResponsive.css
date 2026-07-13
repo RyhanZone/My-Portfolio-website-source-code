@@ -1,0 +1,423 @@
+/* ===== TABLET RESPONSIVE (768px - 1024px) ===== */
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    --header-height: 90px;
+  }
+
+  /* Header Tablet */
+  header {
+    padding: 1.5rem 5%;
+    height: var(--header-height);
+  }
+
+  header > h1 {
+    font-size: 2.3rem;
+  }
+
+  header > i {
+    display: none;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: static;
+    width: auto;
+    background-color: transparent;
+    padding: 0;
+    opacity: 1;
+    border: none;
+    box-shadow: none;
+  }
+
+  .right > a {
+    font-size: 1.1rem;
+    border-bottom: none;
+  }
+
+  /* Home Section Tablet */
+  .home {
+    margin-top: var(--header-height) !important;
+    height: calc(100vh - var(--header-height)) !important;
+    padding: 2.5rem 5% !important;
+    flex-direction: row !important;
+    gap: 2.5rem !important;
+    align-items: center !important;
+  }
+
+  /* Home Details Tablet */
+  .home-details-section {
+    width: 55%;
+    flex: 1;
+  }
+
+  .home-details-section > h1 {
+    font-size: clamp(2.8rem, 6vw, 3.5rem);
+  }
+
+  .home-details-section > h2 {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    margin-top: -0.5rem;
+  }
+
+  .home-details-section > p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin: 1.2rem 0 2rem;
+  }
+
+  /* Button Section Tablet */
+  .btn-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    align-items: center;
+  }
+
+  .btn-section > button {
+    padding: 0.95rem 2.2rem;
+    font-size: 1.05rem;
+  }
+
+  /* Icon Group Tablet */
+  .icon-grp {
+    gap: 1.3rem;
+  }
+
+  .icon-grp div {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .icon-grp i {
+    font-size: 1.7rem;
+  }
+
+  /* Image Section Tablet */
+  .img-section {
+    width: 45%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-section > .img-box {
+    width: 38vw;
+    height: 38vw;
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  .img-section > .img-box::before,
+  .img-section > .img-box::after {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  .img-section > .img-box > .img-items > img {
+    top: 2.5rem;
+    width: 85%;
+  }
+
+  /* Service Section Tablet */
+  .service {
+    height: auto !important;
+    min-height: calc(100vh - var(--header-height)) !important;
+    padding: 2rem 5% !important;
+  }
+
+  .service > h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
+  }
+
+  .service-card {
+    padding: 1.8rem 2rem;
+  }
+
+  .SC-icon > i {
+    font-size: 2.5rem;
+  }
+
+  .service-card > h1 {
+    font-size: 2rem;
+    margin: 0.6rem 0 0.8rem;
+  }
+
+  .service-card > p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /* Contact Section Tablet */
+  .contact {
+    padding: 3rem 5% !important;
+    flex-direction: column !important;
+    gap: 3rem !important;
+    height: auto !important;
+    min-height: calc(100vh - var(--header-height)) !important;
+  }
+
+  .contact-info {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .contact-info h1 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .contact-info p {
+    font-size: 1.05rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .contact-details {
+    gap: 1.8rem;
+  }
+
+  .contact-item {
+    gap: 1.3rem;
+  }
+
+  .contact-icon {
+    width: 58px;
+    height: 58px;
+  }
+
+  .contact-icon i {
+    font-size: 1.6rem;
+  }
+
+  .contact-text h3 {
+    font-size: 1.15rem;
+  }
+
+  .contact-text p {
+    font-size: 1.05rem;
+  }
+
+  .contact-form-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    border-radius: 18px;
+  }
+
+  .contact-form-container h2 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+
+  .form-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 1.1rem 1.3rem;
+    font-size: 0.98rem;
+  }
+
+  .form-group textarea {
+    min-height: 160px;
+  }
+
+  .submit-btn {
+    padding: 1.1rem 1.8rem;
+    font-size: 1.15rem;
+  }
+
+  /* Resume Section Tablet */
+  .resume {
+    padding: 2rem 5% !important;
+    grid-template-columns: 1fr !important;
+    gap: 2.5rem !important;
+    height: auto !important;
+    min-height: calc(100vh - var(--header-height)) !important;
+  }
+
+  .resume-left {
+    text-align: center;
+  }
+
+  .resume-left > h1 {
+    font-size: 2.5rem;
+  }
+
+  .resume-left > p {
+    font-size: 18px;
+    margin: 1rem auto;
+    max-width: 600px;
+  }
+
+  .r-btn-section {
+    margin-top: 1.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .expaeance-btn {
+    height: 60px;
+    width: calc(50% - 0.5rem);
+    min-width: 150px;
+    font-size: 20px;
+  }
+
+  .resume-right {
+    width: 100%;
+  }
+
+  .RR-section > h1 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .RR-section > p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 700px;
+    margin: -1.5rem auto 0;
+  }
+
+  .resume-card-parent-e {
+    margin-top: 2rem;
+    height: 450px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .Ex-card {
+    padding: 25px 22px;
+  }
+
+  .Ex-card > p:nth-child(1) {
+    font-size: 16px;
+  }
+
+  .Ex-card > h2 {
+    font-size: 28px;
+  }
+
+  .Ex-card > div > p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .Ex-card > p:nth-child(4) {
+    font-size: 17px;
+  }
+
+  .skils-card-parent {
+    margin-top: 3rem;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .skils-card-parent > div {
+    height: 130px;
+    width: 150px;
+    font-size: 45px;
+  }
+
+  .S-card::after {
+    font-size: 22px;
+    padding: 10px;
+    width: 130px;
+  }
+
+  .resume-list {
+    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .resume-items p {
+    font-size: 14px;
+  }
+
+  .resume-items p span {
+    font-size: 16px;
+  }
+
+  /* Portfolio Section Tablet */
+  .portfolio {
+    padding: 2rem 5% !important;
+    height: auto !important;
+    min-height: calc(100vh - var(--header-height)) !important;
+  }
+
+  .portfolio > h1 {
+    font-size: 3rem;
+  }
+
+  .portfolio > div {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .p-left {
+    width: 100%;
+  }
+
+  .p-left > h1 {
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+  }
+
+  .p-left > h2 {
+    font-size: 32px;
+    margin-bottom: 0.8rem;
+  }
+
+  .p-left > p {
+    font-size: 18px;
+  }
+
+  .p-left > div {
+    padding-top: 30px;
+    height: 90px;
+  }
+
+  .p-left > div > div {
+    height: 60px;
+    width: 60px;
+    font-size: 35px;
+  }
+
+  .p-right {
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .p-right > img {
+    height: auto;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .p-right > div {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .arrow {
+    height: 55px;
+    width: 55px;
+    font-size: 30px;
+  }
+}
