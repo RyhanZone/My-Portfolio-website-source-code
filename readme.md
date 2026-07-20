@@ -59,7 +59,7 @@ portfolio/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/RyhanZone/My-Portfolio-website-source-code
+git clone https://github.com/RyhanZone/My-old-portfolio
 ```
 
 or download the ZIP file.
